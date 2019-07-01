@@ -18,7 +18,7 @@ make -j`nproc` && sudo make install
 
 ```
 # Start polycubed, in other terminal (or background)
-sudo polycubed &
+sudo polycubed --daemon
 # run pcn-iptables-init.
 pcn-iptables-init
 ```
