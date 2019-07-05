@@ -22,6 +22,8 @@
 #include "extiface_tc.h"
 #include "extiface_xdp.h"
 
+#include "cube.h"
+
 #include "server/Resources/Body/ListResource.h"
 #include "server/Resources/Body/ParentResource.h"
 

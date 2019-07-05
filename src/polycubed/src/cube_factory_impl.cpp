@@ -17,6 +17,8 @@
 #include "cube_factory_impl.h"
 #include "cube_tc.h"
 #include "cube_xdp.h"
+#include "controller.h"
+#include "datapath_log.h"
 #include "service_controller.h"
 #include "transparent_cube_tc.h"
 #include "transparent_cube_xdp.h"

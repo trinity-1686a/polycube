@@ -32,6 +32,8 @@
 #include "version.h"
 #include "utils/netlink.h"
 #include "utils/utils.h"
+#include "controller.h"
+#include "patchpanel.h"
 
 #include <spdlog/sinks/rotating_file_sink.h>
 #include <spdlog/sinks/stdout_sinks.h>

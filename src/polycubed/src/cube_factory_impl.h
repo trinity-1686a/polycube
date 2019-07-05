@@ -20,13 +20,13 @@
 #include "polycube/services/cube_factory.h"
 #include "polycube/services/cube_iface.h"
 
-#include "controller.h"
-#include "datapath_log.h"
-
 #include <memory>
 
 namespace polycube {
 namespace polycubed {
+
+class Controller;
+class DatapathLog;
 
 using service::BaseCubeIface;
 using service::CubeIface;
