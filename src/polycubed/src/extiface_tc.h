@@ -17,14 +17,8 @@
 #pragma once
 
 #include "extiface.h"
-#include "port_tc.h"
 
-#include <api/BPF.h>
-#include <spdlog/spdlog.h>
-
-#include <stdio.h>
-
-#include <set>
+//#include <stdio.h>
 
 namespace polycube {
 namespace polycubed {

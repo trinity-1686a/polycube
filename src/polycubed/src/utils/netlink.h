@@ -22,19 +22,15 @@
 #include <mutex>
 #include <random>
 #include <string>
-#include <thread>
+//#include <thread>
 #include <utility>
 #include <vector>
 
 #include "extiface_info.h"
 
-#include <netlink/netlink.h>
-#include <netlink/route/addr.h>
-#include <netlink/route/link.h>
-#include <netlink/route/qdisc.h>
-#include <netlink/socket.h>
-
 #include <spdlog/spdlog.h>
+
+struct nlmsghdr;
 
 namespace polycube {
 namespace polycubed {

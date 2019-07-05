@@ -17,14 +17,14 @@
 #pragma once
 
 #include "cube.h"
-#include "node.h"
-#include "polycube/services/guid.h"
+//#include "node.h"
+//#include "polycube/services/guid.h"
 
-#include <api/BPF.h>
-#include <api/BPFTable.h>
+//#include <api/BPF.h>
+//#include <api/BPFTable.h>
 
 #include <spdlog/spdlog.h>
-#include "polycube/services/cube_factory.h"
+//#include "polycube/services/cube_factory.h"
 
 #include <exception>
 #include <map>

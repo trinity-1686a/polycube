@@ -22,7 +22,17 @@
 #include "patchpanel.h"
 #include "utils/netlink.h"
 
-#include <iostream>
+#include "port_xdp.h"
+
+#include <arpa/inet.h>
+#include <ifaddrs.h>
+#include <linux/if_link.h>
+#include <netdb.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/socket.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 namespace polycube {
 namespace polycubed {

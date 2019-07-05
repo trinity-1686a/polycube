@@ -19,19 +19,28 @@
 #include "rest_server.h"
 #include "utils/netlink.h"
 
+#include "extiface_tc.h"
+#include "extiface_xdp.h"
+
 #include "server/Resources/Body/ListResource.h"
 #include "server/Resources/Body/ParentResource.h"
 
 #include "server/Resources/Endpoint/ParentResource.h"
 
-#include <pistache/client.h>
+#include "polycube/services/cube_iface.h"
+#include "polycube/services/port_iface.h"
+
+//#include <pistache/client.h>
 #include <regex>
 
-using namespace Pistache::Http;
+//using namespace Pistache::Http;
 using namespace configuration;
 
 namespace polycube {
 namespace polycubed {
+
+using service::CubeIface;
+using polycube::service::PortType;
 
 PolycubedCore::PolycubedCore(BaseModel *base_model)
     : base_model_(base_model), logger(spdlog::get("polycubed")) {}

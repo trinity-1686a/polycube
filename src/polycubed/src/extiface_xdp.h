@@ -17,24 +17,6 @@
 #pragma once
 
 #include "extiface.h"
-#include "port_xdp.h"
-
-#include <api/BPF.h>
-#include <spdlog/spdlog.h>
-
-#include <arpa/inet.h>
-#include <ifaddrs.h>
-#include <linux/if_link.h>
-#include <netdb.h>
-#include <spdlog/spdlog.h>
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/socket.h>
-#include <sys/types.h>
-#include <unistd.h>
-
-#include <list>
-#include <set>
 
 namespace polycube {
 namespace polycubed {

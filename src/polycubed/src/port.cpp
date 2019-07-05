@@ -18,6 +18,7 @@
 #include "controller.h"
 #include "extiface.h"
 #include "service_controller.h"
+#include "transparent_cube.h"
 
 // workaround for now
 #include "polycubed_core.h"

@@ -20,6 +20,12 @@
 #include <linux/if.h>
 #include <iostream>
 
+#include <netlink/netlink.h>
+#include <netlink/route/addr.h>
+#include <netlink/route/link.h>
+#include <netlink/route/qdisc.h>
+#include <netlink/socket.h>
+
 #include <arpa/inet.h>
 #include <sstream>
 #include <sys/socket.h>

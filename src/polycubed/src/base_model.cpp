@@ -17,6 +17,8 @@
 #include "base_model.h"
 
 #include "service_controller.h"
+#include "transparent_cube.h"
+#include "port.h"
 
 namespace polycube::polycubed {
 

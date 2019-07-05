@@ -17,10 +17,10 @@
 #pragma once
 
 #include "cube.h"
-#include "polycube/services/guid.h"
+//#include "polycube/services/guid.h"
 
-#include <api/BPF.h>
-#include <api/BPFTable.h>
+//#include <api/BPF.h>
+//#include <api/BPFTable.h>
 
 #include <spdlog/spdlog.h>
 

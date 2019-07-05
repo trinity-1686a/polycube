@@ -20,27 +20,16 @@
 #include <memory>
 #include <mutex>
 
-#include "polycube/services/port_iface.h"
-
-using polycube::service::PortIface;
-using polycube::service::PortType;
-
 #include "cube_factory_impl.h"
-#include "cube_tc.h"
-#include "cube_xdp.h"
-#include "extiface_tc.h"
-#include "extiface_xdp.h"
 #include "management_interface.h"
-#include "polycube/services/guid.h"
 #include "polycube/services/json.hpp"
-#include "port_tc.h"
-#include "port_xdp.h"
-#include "utils/utils.h"
 
 namespace polycube {
 namespace polycubed {
 
+class ExtIface;
 class PolycubedCore;
+class Port;
 
 using json = nlohmann::json;
 

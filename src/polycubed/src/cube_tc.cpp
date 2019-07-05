@@ -16,6 +16,7 @@
  */
 
 #include "cube_tc.h"
+#include "bcc_mutex.h"
 #include "datapath_log.h"
 #include "exceptions.h"
 #include "patchpanel.h"

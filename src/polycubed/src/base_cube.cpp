@@ -15,8 +15,11 @@
  */
 
 #include "base_cube.h"
-
+#include "bcc_mutex.h"
 #include "polycube/common.h"
+
+#include <api/BPF.h>
+#include <api/BPFTable.h>
 
 namespace polycube {
 namespace polycubed {

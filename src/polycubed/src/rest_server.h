@@ -19,16 +19,16 @@
 // TODO: to be removed once pistache is fixed
 #define PISTACHE_USE_SSL
 
-#include <openssl/x509.h>
-#include <openssl/x509_vfy.h>
-
 #include <pistache/endpoint.h>
 #include <pistache/http.h>
 #include <pistache/router.h>
+
 #include <spdlog/spdlog.h>
 #include <algorithm>
 #include "polycube/services/json.hpp"
-#include "polycubed_core.h"
+#include "polycube/services/response.h"
+
+//#include "polycubed_core.h"
 
 // #define LOG_DEBUG_
 
@@ -42,6 +42,8 @@ using Pistache::Rest::Request;
 
 namespace polycube {
 namespace polycubed {
+
+class PolycubedCore;
 
 class RestServer {
  public:

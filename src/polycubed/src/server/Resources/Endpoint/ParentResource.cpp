@@ -21,6 +21,7 @@
 #include <utility>
 
 #include "rest_server.h"
+#include "polycubed_core.h"
 
 #include "../../Server/ResponseGenerator.h"
 #include "../Body/JsonNodeField.h"

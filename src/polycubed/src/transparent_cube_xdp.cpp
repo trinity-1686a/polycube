@@ -15,6 +15,7 @@
  */
 
 #include "transparent_cube_xdp.h"
+#include "bcc_mutex.h"
 #include "cube_tc.h"
 #include "cube_xdp.h"
 #include "datapath_log.h"

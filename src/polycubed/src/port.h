@@ -16,7 +16,6 @@
 
 #pragma once
 
-// TODO: probably this include should not exist
 #include "peer_iface.h"
 #include "polycube/services/cube_factory.h"
 #include "polycube/services/cube_iface.h"

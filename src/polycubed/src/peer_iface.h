@@ -28,6 +28,8 @@ using polycube::service::ProgramType;
 namespace polycube {
 namespace polycubed {
 
+class TransparentCube;
+
 class PeerIface {
  public:
   PeerIface(std::mutex &mutex);

@@ -26,6 +26,7 @@
 #include "../../Server/ResponseGenerator.h"
 #include "Service.h"
 #include "rest_server.h"
+#include "polycubed_core.h"
 
 namespace polycube::polycubed::Rest::Resources::Endpoint {
 LeafResource::LeafResource(

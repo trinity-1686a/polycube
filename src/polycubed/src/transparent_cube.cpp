@@ -17,6 +17,7 @@
 #include "transparent_cube.h"
 #include "controller.h"
 #include "peer_iface.h"
+#include "extiface.h"
 #include "port.h"
 
 #include <iostream>

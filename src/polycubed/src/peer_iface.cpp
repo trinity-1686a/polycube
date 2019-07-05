@@ -16,6 +16,8 @@
 
 #include "peer_iface.h"
 
+#include "transparent_cube.h"
+
 namespace polycube {
 namespace polycubed {
 

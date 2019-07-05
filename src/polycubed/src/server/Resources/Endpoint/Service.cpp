@@ -18,6 +18,7 @@
 #include "polycube/services/cube_factory.h"
 #include "polycubed_core.h"
 #include "rest_server.h"
+#include "utils/utils.h"
 
 #include "../../Server/ResponseGenerator.h"
 #include "../Body/JsonNodeField.h"

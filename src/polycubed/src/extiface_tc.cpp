@@ -21,7 +21,8 @@
 #include "patchpanel.h"
 #include "utils/netlink.h"
 
-#include <iostream>
+//#include <spdlog/spdlog.h>
+//#include <iostream>
 
 namespace polycube {
 namespace polycubed {

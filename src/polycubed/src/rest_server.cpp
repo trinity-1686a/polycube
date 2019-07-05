@@ -17,13 +17,15 @@
 
 #include <string>
 #include <vector>
+#include <openssl/x509.h>
+#include <openssl/x509_vfy.h>
 
 #include "polycubed_core.h"
 #include "service_controller.h"
 #include "version.h"
+#include "utils/utils.h"
 #include "utils/netlink.h"
 
-#include "polycube/services/response.h"
 #include "server/Resources/Data/AbstractFactory.h"
 #include "server/Server/ResponseGenerator.h"
 

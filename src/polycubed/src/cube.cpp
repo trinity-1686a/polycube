@@ -16,11 +16,14 @@
 
 #include "cube.h"
 
-#include <net/if.h>
+#include "bcc_mutex.h"
 #include "port_tc.h"
 #include "port_xdp.h"
 #include "utils/ns.h"
 #include "polycube/services/utils.h"
+
+#include <api/BPFTable.h>
+#include <net/if.h>
 
 const std::string prefix_ns = "pcn-";
 const std::string prefix_port = "ns_port_";

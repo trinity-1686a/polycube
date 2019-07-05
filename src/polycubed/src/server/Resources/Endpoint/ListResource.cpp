@@ -26,6 +26,7 @@
 #include "PathParamField.h"
 #include "Service.h"
 #include "rest_server.h"
+#include "polycubed_core.h"
 
 #include "../Data/Lib/ListResource.h"
 

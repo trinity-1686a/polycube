@@ -17,21 +17,21 @@
 #pragma once
 
 #include "base_cube.h"
-#include "bcc_mutex.h"
-#include "id_generator.h"
-#include "node.h"
+//#include "bcc_mutex.h"
+//#include "id_generator.h"
+//#include "node.h"
 #include "patchpanel.h"
 #include "polycube/services/cube_iface.h"
-#include "polycube/services/guid.h"
+//#include "polycube/services/guid.h"
 #include "polycube/services/json.hpp"
 #include "polycube/services/port_iface.h"
 #include "utils/veth.h"
 
-#include <api/BPF.h>
+//#include <api/BPF.h>
 #include <api/BPFTable.h>
 
-#include <spdlog/sinks/rotating_file_sink.h>
-#include <spdlog/sinks/stdout_sinks.h>
+//#include <spdlog/sinks/rotating_file_sink.h>
+//#include <spdlog/sinks/stdout_sinks.h>
 #include <spdlog/spdlog.h>
 
 #include <exception>
