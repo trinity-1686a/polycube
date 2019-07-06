@@ -16,14 +16,13 @@
 
 #pragma once
 
-#include <api/BPF.h>
-#include <spdlog/spdlog.h>
-
-#include <stdio.h>
-#include <set>
-
 #include "peer_iface.h"
 #include "polycube/services/cube_iface.h"
+
+#include <api/BPF.h>
+
+//#include <stdio.h>
+#include <set>
 
 using polycube::service::ProgramType;
 

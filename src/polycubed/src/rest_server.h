@@ -24,11 +24,9 @@
 #include <pistache/router.h>
 
 #include <spdlog/spdlog.h>
-#include <algorithm>
+
 #include "polycube/services/json.hpp"
 #include "polycube/services/response.h"
-
-//#include "polycubed_core.h"
 
 // #define LOG_DEBUG_
 

@@ -23,9 +23,6 @@
 
 #include <spdlog/spdlog.h>
 
-#include <exception>
-#include <map>
-#include <set>
 #include <vector>
 
 class TransparentCubeXDP;

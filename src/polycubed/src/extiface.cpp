@@ -15,14 +15,13 @@
  */
 
 #include "extiface.h"
+
 #include "bcc_mutex.h"
 #include "exceptions.h"
 #include "extiface_tc.h"
 #include "patchpanel.h"
 #include "port.h"
 #include "utils/netlink.h"
-
-#include <iostream>
 
 namespace polycube {
 namespace polycubed {

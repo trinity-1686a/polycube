@@ -16,8 +16,6 @@
 
 #include "patchpanel.h"
 
-#include <iostream>
-
 namespace polycube {
 namespace polycubed {
 

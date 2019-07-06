@@ -16,12 +16,8 @@
 
 #include "polycube/services/port.h"
 #include "polycube/services/port_iface.h"
-#include "port_tc.h"
-#include "port_xdp.h"
 
-//#include <tins/tins.h>
 #include <tins/ethernetII.h>
-// using Tins::EthernetII;
 
 namespace polycube {
 namespace service {

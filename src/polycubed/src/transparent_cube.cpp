@@ -20,8 +20,6 @@
 #include "extiface.h"
 #include "port.h"
 
-#include <iostream>
-
 // workaround for now
 #include "polycubed_core.h"
 extern polycube::polycubed::PolycubedCore *core;

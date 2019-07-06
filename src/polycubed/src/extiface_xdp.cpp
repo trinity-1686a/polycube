@@ -16,13 +16,12 @@
  */
 
 #include "extiface_xdp.h"
+
 #include "bcc_mutex.h"
-#include "exceptions.h"
 #include "extiface_tc.h"
 #include "patchpanel.h"
-#include "utils/netlink.h"
-
 #include "port_xdp.h"
+#include "utils/netlink.h"
 
 #include <arpa/inet.h>
 #include <ifaddrs.h>

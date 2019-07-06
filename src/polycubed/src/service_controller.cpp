@@ -19,22 +19,19 @@
 
 #include "polycube/services/port_iface.h"
 
-//using polycube::service::PortIface;
 using polycube::service::PortType;
 
 #include "config.h"
 #include "cube_factory_impl.h"
+#include "extiface.h"
+#include "extiface_tc.h"
+#include "extiface_xdp.h"
 #include "port.h"
 #include "port_xdp.h"
 #include "utils/utils.h"
 #include "utils/netlink.h"
 
-#include "extiface.h"
-#include "extiface_tc.h"
-#include "extiface_xdp.h"
-
 #include <regex>
-
 #include <linux/version.h>
 #include <sys/utsname.h>
 

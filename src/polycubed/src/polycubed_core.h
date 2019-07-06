@@ -18,20 +18,12 @@
 
 #include <spdlog/spdlog.h>
 
-//#include <algorithm>
 #include <list>
 #include <string>
 #include <unordered_map>
 
 #include "base_model.h"
-//#include "polycube/services/guid.h"
-//#include "polycube/services/json.hpp"
 #include "service_controller.h"
-
-//#include "cube_factory_impl.h"
-//#include "extiface_info.h"
-
-//using json = nlohmann::json;
 
 namespace polycube {
 namespace polycubed {

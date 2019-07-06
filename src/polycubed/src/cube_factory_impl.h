@@ -16,7 +16,6 @@
 
 #pragma once
 
-//#include "polycube/services/guid.h"
 #include "polycube/services/cube_factory.h"
 #include "polycube/services/cube_iface.h"
 

@@ -22,9 +22,9 @@
 
 #include "polycubed_core.h"
 #include "service_controller.h"
-#include "version.h"
 #include "utils/utils.h"
 #include "utils/netlink.h"
+#include "version.h"
 
 #include "server/Resources/Data/AbstractFactory.h"
 #include "server/Server/ResponseGenerator.h"

@@ -17,16 +17,10 @@
 #pragma once
 
 #include "cube.h"
-//#include "polycube/services/guid.h"
-
-//#include <api/BPF.h>
-//#include <api/BPFTable.h>
 
 #include <spdlog/spdlog.h>
 
 #include <exception>
-#include <map>
-#include <set>
 #include <vector>
 
 namespace polycube {

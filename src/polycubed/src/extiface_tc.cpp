@@ -16,13 +16,10 @@
  */
 
 #include "extiface_tc.h"
+
 #include "bcc_mutex.h"
-#include "exceptions.h"
 #include "patchpanel.h"
 #include "utils/netlink.h"
-
-//#include <spdlog/spdlog.h>
-//#include <iostream>
 
 namespace polycube {
 namespace polycubed {

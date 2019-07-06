@@ -18,13 +18,12 @@
 
 #include "polycube/services/cube_factory.h"
 #include "polycube/services/guid.h"
+#include "polycube/services/json.hpp"
 #include "polycube/services/port_iface.h"
 #include "polycube/services/table.h"
 
 #include <map>
 #include <string>
-
-#include "polycube/services/json.hpp"
 
 namespace polycube {
 namespace service {

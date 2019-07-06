@@ -18,8 +18,6 @@
 
 #include "extiface.h"
 
-//#include <stdio.h>
-
 namespace polycube {
 namespace polycubed {
 

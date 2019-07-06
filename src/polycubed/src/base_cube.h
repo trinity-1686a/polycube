@@ -16,16 +16,13 @@
 
 #pragma once
 
-//#include "bcc_mutex.h"
 #include "id_generator.h"
 #include "patchpanel.h"
-//#include "polycube/services/cube_factory.h"
+
 #include "polycube/services/cube_iface.h"
 #include "polycube/services/guid.h"
 #include "polycube/services/json.hpp"
 
-//#include <spdlog/sinks/rotating_file_sink.h>
-//#include <spdlog/sinks/stdout_sinks.h>
 #include <spdlog/spdlog.h>
 
 #include <exception>

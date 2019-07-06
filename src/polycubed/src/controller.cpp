@@ -14,18 +14,18 @@
  * limitations under the License.
  */
 
-#include "exceptions.h"
-
 #include "controller.h"
+
 #include "cube_tc.h"
 #include "cube_xdp.h"
 #include "datapath_log.h"
+#include "exceptions.h"
 #include "patchpanel.h"
 #include "utils/netlink.h"
 
 #include "polycube/services/utils.h"
 
-#include <iostream>
+//#include <iostream>
 
 using namespace polycube::service;
 

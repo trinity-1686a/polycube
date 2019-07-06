@@ -19,6 +19,8 @@
 #include "cube_tc.h"
 #include "node.h"
 
+#include "polycube/services/cube_factory.h"
+
 #include <cstdint>
 #include <functional>
 #include <map>
@@ -27,12 +29,8 @@
 #include <vector>
 
 #include <api/BPF.h>
-
 #include <spdlog/spdlog.h>
-
 #include "viface/viface.hpp"
-
-#include "polycube/services/cube_factory.h"
 
 using polycube::service::PacketIn;
 using polycube::service::packet_in_cb;

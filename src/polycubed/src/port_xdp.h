@@ -16,11 +16,7 @@
 
 #pragma once
 
-#include "polycube/services/guid.h"
 #include "port.h"
-
-#include <cstdint>
-#include <string>
 
 namespace polycube {
 namespace polycubed {

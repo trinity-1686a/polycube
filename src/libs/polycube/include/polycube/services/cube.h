@@ -19,10 +19,9 @@
 #include <map>
 #include <string>
 
+#include "polycube/services/base_cube.h"
 #include "polycube/services/port.h"
 #include "polycube/services/utils.h"
-
-#include "polycube/services/base_cube.h"
 
 namespace polycube {
 namespace service {
