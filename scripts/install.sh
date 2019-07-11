@@ -63,6 +63,20 @@ mkdir -p $WORKDIR
 $SUDO apt update
 $SUDO apt install -y wget gnupg2
 
+echo "Install golang v1.12"
+# TODO: v1.12 still not available in repos
+#wget https://dl.google.com/go/go1.12.6.linux-amd64.tar.gz
+#$SUDO tar -xvf go1.12.6.linux-amd64.tar.gz
+#$SUDO mv go /usr/local
+#$SUDO ln -s /usr/local/go/bin/go /usr/bin
+
+$SUDO apt-get install -y software-properties-common
+$SUDO add-apt-repository ppa:longsleep/golang-backports
+$SUDO apt-get update
+$SUDO apt install -y golang-go
+#$SUDO ln -s /usr/bin
+
+
 $SUDO sh -c "echo 'deb http://download.opensuse.org/repositories/home:/liberouter/xUbuntu_18.04/ /' > /etc/apt/sources.list.d/home:liberouter.list"
 wget -nv https://download.opensuse.org/repositories/home:liberouter/xUbuntu_18.04/Release.key -O Release.key
 $SUDO apt-key add - < Release.key
@@ -75,7 +89,8 @@ PACKAGES+=" bison flex libelf-dev" # bcc dependencies
 PACKAGES+=" libllvm5.0 llvm-5.0-dev libclang-5.0-dev" # bpf tools compilation tool chain
 PACKAGES+=" libnl-route-3-dev libnl-genl-3-dev" # netlink library
 PACKAGES+=" uuid-dev"
-PACKAGES+=" golang-go" # needed for polycubectl and pcn-k8s
+#PACKAGES+=" golang-go" # needed for polycubectl and pcn-k8s
+#PACKAGES+=" golang-1.12-go" # needed for polycubectl and pcn-k8s
 PACKAGES+=" pkg-config"
 PACKAGES+=" libyang-dev"
 PACKAGES+=" autoconf libtool m4 automake"

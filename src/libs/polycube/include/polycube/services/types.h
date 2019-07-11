@@ -14,21 +14,15 @@
  * limitations under the License.
  */
 
-#include <string>
-#include <map>
-#include "polycube/services/json.hpp"
+#pragma once
 
-using json = nlohmann::json;
+#include <functional>
 
 namespace polycube {
-namespace polycubed {
-namespace utils {
+namespace service {
 
-bool check_kernel_version(const std::string &version);
-std::map<std::string, std::string> strip_port_peers(json &cubes);
-std::map<std::string, json> strip_port_tcubes(json &jcube);
-std::string decode_url(const std::string &url);
+typedef std::function<void(const std::string, const std::string)>
+    ParameterEventCallback;
 
-}  // namespace utils
-}  // namespace polycubed
+}  // namespace service
 }  // namespace polycube
