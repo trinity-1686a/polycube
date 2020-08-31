@@ -111,7 +111,7 @@ You can create your own certification authority to issue certificates for polycu
 
         openssl genrsa -des3 -out ca.key 4096
 
-    Remove the ``-des3`` if you don't have to protect the key wiht a passphrase
+    Remove the ``-des3`` if you don't have to protect the key with a passphrase
 
     b. Create root certificate
     ::
